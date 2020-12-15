@@ -6,9 +6,18 @@
     <title>Contact Form in JS</title>
 </head>
 <body>
+    <div>
+        <h1>This is a contact form</h1>
+    </div>
+    <div class="form"></div>
     <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="module" src="/ContactForm.js"></script>
+    <script >
+        ReactDOM.render(<ContactForm />, document.querySelector('.form'))
+    </script>
 </body>
 </html>
 
