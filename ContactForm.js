@@ -93,4 +93,7 @@ class ContactForm extends Component {
     }
 }
 
-export default ContactForm;
+// export default ContactForm;
+
+const domContainer = document.querySelector('.form');
+ReactDOM.render((ContactForm), domContainer)
